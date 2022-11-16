@@ -5980,3 +5980,11 @@
 	max-width:100%;
 	padding-left:30px;	
 }
+
+.main-color{
+	color: var(--main-color);
+}
+
+.image-box{
+	padding: 15px;
+}

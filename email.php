@@ -26,8 +26,8 @@ if (isset($_POST['submit'])) {
                     <body style='background-color: #eee; font-size: 16px;'>
                         <div style='max-width: 600px; min-width: 200px; background-color: #fff; padding: 20px; margin: auto;'>
                         
-                            <h1  style='text-align: center;'>DMV Express Service</h1>
-                            
+                            <img src='" . $_SERVER['SERVER_NAME'] . "/images/big_logo.png' style='max-width: 220px;display: block;margin-left: auto;margin-right: auto;'>
+
                             <h3 style='color:black'>Hi $u!</h3>
                                 
                             <p style='text-align: center;color:green;font-weight:bold'>Thank you for reaching out us</p>   

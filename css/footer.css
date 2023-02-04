@@ -91,18 +91,12 @@
 
 .main-footer .social-box li a{
 	position:relative;
-	width:40px;
-	height:40px;
-	line-height:40px;
-	border-radius:50px;
 	display:inline-block;
-	color:var(--white-color);
-	background-color:var(--main-color);
 }
 
 .main-footer .social-box li a:hover{
-	color:var(--main-color);
-	background-color:var(--white-color);
+	border: 1px solid white;
+	border-radius: 50%;
 }
 
 .main-footer .footer-bottom{

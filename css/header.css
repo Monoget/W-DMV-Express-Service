@@ -65,7 +65,7 @@
 
 .main-header .header-top .social-box{
 	position: relative;
-	padding:13px 0px;
+	padding:8px 0px;
 }
 
 .main-header .header-top .social-box:before{
@@ -76,7 +76,7 @@
 	right:-1200px;
 	bottom:0px;
 	 transform: skewX(-30deg);
-	background-color:var(--main-color);
+	background-color:var(--white-color);
 }
 
 .main-header .header-top .social-box li{
@@ -87,17 +87,12 @@
 
 .main-header .header-top .social-box li a{
 	position: relative;
-	color:var(--white-color);
-	font-size:30px;
+	color:var(--main-color);
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
-}
-
-.main-header .header-top .social-box li a:hover{
-	color:var(--main-color-two);
 }
 
 .main-header .header-upper{
@@ -1390,16 +1385,12 @@
 
 .sidebar-info-contents .content-inner .social-box li a{
 	position:relative;
-	width:36px;
-	height:36px;
-	color:var(--main-color-two);
 	z-index:1;
 	font-size:var(--font-14);
 	line-height:36px;
 	text-align:center;
 	border-radius:50%;
 	display:inline-block;
-	background-color:var(--white-color);
 	-webkit-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
@@ -1408,8 +1399,8 @@
 }
 
 .sidebar-info-contents .content-inner .social-box li a:hover{
-	color:var(--white-color);
-	background-color:var(--main-color);
+	border-radius: 50%;
+	border:2px solid var(--main-color);
 }
 
 .close-side-widget,

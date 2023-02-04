@@ -39,6 +39,15 @@
 	background-size:cover;
 }
 
+.social-box li a img{
+	height: 35px;
+}
+
+.social-box li a img:hover{
+	border-radius: 50%;
+	border:2px solid var(--main-color);
+}
+
 .main-slider .color-layer-one{
 	position:absolute;
 	left:0px;

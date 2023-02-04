@@ -382,7 +382,7 @@
 	}
 	
 	.main-header .header-top .info li{
-		font-size:var(--font-14);
+		font-size:25px;
 	}
 	
 	.main-header .sticky-header .logo{

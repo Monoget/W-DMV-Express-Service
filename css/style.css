@@ -35,7 +35,7 @@
 .main-slider .slide{
 	position:relative;
 	overflow:hidden;
-	padding:190px 0px 260px;
+	padding:25px 0px 25px;
 	background-size:cover;
 }
 
@@ -130,7 +130,6 @@
 	-ms-transition: all 1000ms ease;
 	-o-transition: all 1000ms ease;
 	transition: all 1000ms ease;
-	margin-bottom:var(--margin-bottom-40);
 }
 
 .main-slider .active h1{

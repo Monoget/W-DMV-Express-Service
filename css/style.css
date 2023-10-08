@@ -6000,3 +6000,21 @@
 .text-red{
 	color: #ff1010;
 }
+
+.btn-link:hover {
+	text-decoration: none;
+}
+
+.navbar-nav.ml-auto .nav-item {
+	margin-right: 1rem;
+	color: black;
+}
+
+.nav-link{
+	color: black !important;
+	font-size: 1.1rem;
+}
+
+.navbar-nav.ml-auto .nav-item:hover {
+	color: #000000; /* Change the hover color as needed */
+}

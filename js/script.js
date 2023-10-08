@@ -21,9 +21,13 @@
 			var HeaderHight = $('.main-header').height();
 			if (windowpos >= HeaderHight) {
 				siteHeader.addClass('fixed-header');
+
+				$('.main-header .bg-white').addClass('sticky-header');
 				scrollLink.fadeIn(300);
 			} else {
 				siteHeader.removeClass('fixed-header');
+
+				$('.main-header .bg-white').removeClass('sticky-header');
 				scrollLink.fadeOut(300);
 			}
 			
